@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int i,N;
+    printf("enter a number to print natural number up to that number");
+    scanf("%d",&N);
+    for(i=N;i>=1;i--)
+    {
+        printf("%d",i);
+        printf("\n");
+    }
+
+    return 0;
+}
